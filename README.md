@@ -1,82 +1,69 @@
 # Popcorn Box
 
-Welcome to **Popcorn Box** – a movie and series searching website designed to provide an engaging and user-friendly experience. This project leverages React.js for the front-end development, styled with CSS to ensure a responsive and visually appealing design. 
+**Popcorn Box** is a movie and series search application built with React.js and CSS. This project provides a user-friendly interface to search for movies and TV shows, filter results by genre and rating, and save favorite items. 
 
 ## Features
 
-- **Search Functionality**: Easily search for movies and TV shows using a dynamic search bar.
-- **Filters**: Apply filters by genre and rating to narrow down search results.
-- **Favorites**: Mark movies and TV shows as favorites and manage them effectively.
-- **Accessibility**: Integrated Userway ADA Widget for enhanced accessibility.
-- **SEO Friendly**: Optimized for search engines to improve visibility.
-- **Analytics**: Google Analytics integration for tracking and analyzing user interactions.
-
-## Live Demo
-
-Check out the live version of Popcorn Box hosted on Netlify: [Popcorn Box](https://popcorn-box.netlify.app/)
-
-## Repository
-
-The source code is available on GitHub: [Popcorn Box Repository](https://github.com/sahilraolab/pop.git)
-
-## Installation
-
-To get started with Popcorn Box locally, follow these steps:
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/sahilraolab/pop.git
-    ```
-
-2. **Navigate to the project directory**:
-    ```bash
-    cd pop
-    ```
-
-3. **Install dependencies**:
-    ```bash
-    npm install
-    ```
-
-4. **Run the development server**:
-    ```bash
-    npm start
-    ```
-   This will start the development server and open the application in your default web browser.
-
-5. **Build the project** (for production):
-    ```bash
-    npm run build
-    ```
-
-## Code Structure
-
-- `src/`: Contains the main source code of the application.
-  - `components/`: Reusable React components.
-  - `styles/`: CSS files for styling the application.
-  - `App.js`: Main application component.
-  - `index.js`: Entry point of the application.
-
-## Performance
-
-Popcorn Box has been optimized for performance with techniques such as code splitting and lazy loading to ensure a smooth and fast user experience.
+- **Search Functionality**: Search for movies and TV shows by title.
+- **Filtering**: Filter results by genre and rating.
+- **Favorites**: Save and manage favorite movies and series.
+- **Accessibility**: Integrated Userway's ADA widget for improved accessibility.
+- **SEO Friendly**: Designed with SEO best practices.
+- **Performance**: Optimized for fast loading times and responsiveness.
 
 ## Accessibility
 
-The website is ADA friendly thanks to the integration of the Userway ADA Widget. This ensures that users with disabilities can navigate and interact with the website effectively.
+The application is designed to be accessible to all users. Key accessibility features include:
+- **Userway's ADA Widget**: Enhances accessibility by providing features like text resizing, contrast adjustment, and keyboard navigation improvements.
+- **ARIA Roles and Properties**: Implements ARIA roles and properties to provide better context and interactions for screen readers.
 
 ## SEO
 
-The site is designed with SEO best practices in mind, including meta tags, structured data, and accessible content to improve search engine rankings and visibility.
+The site is optimized for search engines with the following practices:
+- **Meta Tags**: Includes relevant meta tags for titles, descriptions, and keywords.
+- **Structured Data**: Uses JSON-LD structured data to help search engines understand the content.
+- **Descriptive Alt Text**: Provides descriptive `alt` attributes for all images to improve indexing and accessibility.
 
-## Contributions
+## Design
 
-Feel free to contribute to the project by submitting issues or pull requests on GitHub. Contributions are welcome!
+The website employs a black and white color scheme with a minimalistic design. This choice reflects the belief in simplicity and helps to keep the user interface clean and easy to navigate.
 
-## License
+## Technologies Used
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+- **React.js**: For building the user interface.
+- **CSS**: For styling the application.
+- **Userway's ADA Widget**: For accessibility enhancements.
+- **Google Analytics**: For tracking and analyzing user interactions.
 
-## Contact
+## Installation
 
-For any inquiries, please reach out via [email](mailto:dev.sahilrao@gmail.com) or [LinkedIn](https://www.linkedin.com/in/sahil-rao-a80bb9218/).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sahilraolab/pop.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd pop
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
+5. Open your browser and go to `http://localhost:3000` to view the application.
+
+## Deployment
+
+The application is hosted on Netlify. You can access it via the following URL: [Popcorn Box](https://popcorn-box.netlify.app/)
+
+## Code
+
+The source code for this project is available on GitHub: [Popcorn Box Repository](https://github.com/sahilraolab/pop.git)
+```
