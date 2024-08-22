@@ -11,12 +11,12 @@ const Card = ({ item, index, IMAGE_BASE_URL, handleFavClick }) => {
     return (
         <div className="card" key={index} role="article" aria-labelledby={`card-title-${index}`} aria-describedby={`card-description-${index}`}>
             <h2 id={`card-title-${index}`} className="text-center mt-2">
-                <span>{item.title || item.name || item.original_name}</span>
-                <span>{item.release_date?.split('-')?.[0] || item.first_air_date?.split('-')?.[0]}</span>
+                <span>{item?.title || item?.name || item?.original_name || "Not found"}</span>
+                <span>{item?.release_date?.split('-')?.[0] || item?.first_air_date?.split('-')?.[0] || "NA"}</span>
             </h2>
             <img
-                src={`${IMAGE_BASE_URL}${item.poster_path}`}
-                alt={item.title ? `${item.title} Poster` : 'Movie or TV Show Poster'}
+                src={`${IMAGE_BASE_URL}${item?.poster_path}`}
+                alt={item?.title ? `${item.title} Poster` : 'Movie or TV Show Poster'}
                 className="w-full h-auto"
                 onError={({ currentTarget }) => {
                     currentTarget.onerror = null;
@@ -24,11 +24,11 @@ const Card = ({ item, index, IMAGE_BASE_URL, handleFavClick }) => {
                 }}
             />
             <div className="btns">
-                <div className="rating" aria-label={`Rating: ${item.vote_average?.toFixed(1)}`}>
+                <div className="rating" aria-label={`Rating: ${item?.vote_average?.toFixed(1)}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#000000">
                         <path d="m660-393 146-125 106 9-172 147 52 218-85-51-47-198Zm-87-265-43-99 46-107 92 214-95-8ZM304-293l128-76 129 76-34-144 111-95-147-13-59-137-59 137-147 13 112 95-34 144ZM195-144l63-266L48-589l276-24 108-251 108 252 276 23-210 179 63 266-237-141-237 141Zm237-323Z" />
                     </svg>
-                    <span>{item.vote_average?.toFixed(1)}</span>
+                    <span>{item?.vote_average?.toFixed(1) || "NA"}</span>
                 </div>
                 <button
                     className="fav"
