@@ -1,0 +1,58 @@
+.card {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    max-width: 20rem;
+}
+
+.card>h2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: .8rem;
+    font-weight: lighter;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.card>img {
+    border-radius: 1rem;
+    min-width: 50%;
+    max-width: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    min-height: 15rem;
+    transition: transform 0.3s ease-in;
+}
+
+.card:hover>img {
+    transform: scale(1.1);
+}
+
+
+.fav {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btns {
+    display: flex;
+    gap: 1rem;
+    width: 90%;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+
+.rating {
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+    justify-content: center;
+}
+

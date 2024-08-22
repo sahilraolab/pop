@@ -37,13 +37,16 @@
     padding: .5rem 0;
 }
 
-.nav {
+.nav > ul {
     display: flex;
-    flex-direction: column;
     margin-top: 2rem;
     align-items: center;
     justify-content: center;
     gap: 1rem;
+}
+
+.nav > ul > li{
+    list-style: none;
 }
 
 .mainLinksContainer {
