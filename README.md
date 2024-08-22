@@ -13,7 +13,7 @@ Welcome to **Popcorn Box** – a movie and series searching website designed to 
 
 ## Live Demo
 
-Check out the live version of Popcorn Box hosted on Netlify: [Popcorn Box](https://your-netlify-url.com)
+Check out the live version of Popcorn Box hosted on Netlify: [Popcorn Box](https://popcorn-box.netlify.app/)
 
 ## Repository
 
